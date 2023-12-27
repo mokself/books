@@ -1,3 +1,5 @@
 node_modules
-.temp
-.cache
+.vuepress/.cache
+.vuepress/.temp
+package-lock.json
+yarn.lock

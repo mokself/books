@@ -2,7 +2,7 @@
   "name": "vuepress-github-blog",
   "version": "2.0.0",
   "description": "",
-  "repository": "",
+  "repository": "https://github.com/mokself/mokself.github.io.git",
   "author": "morley",
   "license": "MIT",
   "scripts": {

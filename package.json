@@ -16,7 +16,7 @@
     "vuepress-theme-reco": "2.0.0-rc.5"
   },
   "peerDependencies": {
-    "vue": "2.7.14",
+    "vue": "2.7.13",
     "@vuepress/client": "^2.0.0-rc.0"
   }
 }

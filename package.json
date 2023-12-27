@@ -1,15 +1,14 @@
 {
-  "name": "vuepress-github-blog",
+  "name": "vuepress-theme-reco-demo",
   "version": "2.0.0",
-  "description": "",
-  "repository": "https://github.com/mokself/mokself.github.io.git",
-  "author": "morley",
+  "description": "Demo for vuepress-theme-reco@2.x.",
+  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
+  "author": "reco_luan <recoluan@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "build": "vuepress build .",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build ."
   },
   "dependencies": {
     "vuepress": "2.0.0-rc.0",

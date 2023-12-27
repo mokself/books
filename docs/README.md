@@ -6,7 +6,7 @@ modules:
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
-  title: 码无止境の世界22
+  title: 码无止境の世界222
   description: Code is Life
   tagline: 在无止境的编程代码世界里遨游，用代码改变我们的生活。
   buttons:

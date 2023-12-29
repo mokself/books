@@ -25,11 +25,6 @@ bannerBrand:
 绕树三匝，何枝可依？
 山不厌高，海不厌深。
 周公吐哺，天下归心。"
-  buttons:
-    - { text: Guide, link: '/docs/guide/introduce' }
-    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://mokself.github.io' }
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/mokself' }

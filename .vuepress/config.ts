@@ -4,13 +4,14 @@ import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
   title: "小哔咔的个人博客",
-  description: "Just playing around",
+  description: "小哔咔的个人博客",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.jpg",
     author: "morley",
     authorAvatar: "/head.jpg",
-    lastUpdatedText: "",
+    lastUpdatedText: "最后更新时间",
+    catalogTitle: "目录",
     // 自动设置分类
     autoSetSeries: true,
     navbar: [

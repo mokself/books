@@ -68,9 +68,7 @@ on:
 
 # 设置 {{ GITHUB_TOKEN }} 的部署权限
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   docs:
@@ -156,7 +154,13 @@ Action执行完毕后应该会多出一个`gh-pages`的代码分支，里面是b
 每次部署失败都会收到一封邮件，可以点击跳转，也可以在  
 Github仓库的菜单栏上找到`Actions`，里面可以看到工作流记录，如果部署失败可以点击进去查看具体的错误信息
 
+成功部署会显示绿色的勾
+![4.png](./img/4.png)
+查看详细可以看到每一步的执行情况
+![5.png](./img/5.png)
+
 错误提示`[vite]: Rollup failed to resolve import "vue" from ...`  
+![6.png](./img/6.png)
 这是因为工作流配置(`.github/workflows/docs.yml`)中使用的pnpm进行构建，此时需要安装前置依赖  
 在项目的`package.json`中添加
 ```json

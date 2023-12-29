@@ -7,43 +7,30 @@ modules:
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
-  title: vuepress-reco
-  description: 一款简洁的 vuepress 博客 & 文档 主题。
-  tagline: vuepress-theme-reco 2.0 继续坚持简洁的风格，所有功能开箱即用，首页模块化组装，使用 tailwindcss 书写样式，将 Vite 作为默认编译器。你只需要负责内容创作，其他请交给我。
+  title: 小哔咔的个人博客
+  description: 记录开发中的点点滴滴
+  tagline: "对酒当歌，人生几何！
+譬如朝露，去日苦多。
+慨当以慷，忧思难忘。
+何以解忧？唯有杜康。
+青青子衿，悠悠我心。
+但为君故，沉吟至今。
+呦呦鹿鸣，食野之苹。
+我有嘉宾，鼓瑟吹笙。
+明明如月，何时可掇？
+忧从中来，不可断绝。
+越陌度阡，枉用相存。
+契阔谈䜩，心念旧恩。
+月明星稀，乌鹊南飞。
+绕树三匝，何枝可依？
+山不厌高，海不厌深。
+周公吐哺，天下归心。"
   buttons:
     - { text: Guide, link: '/docs/guide/introduce' }
     - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
+    - { icon: 'LogoGithub', link: 'https://mokself.github.io' }
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+    - { icon: 'LogoGithub', link: 'https://github.com/mokself' }
 ---
-
-## 快速开始
-
-**npx**
-
-```bash
-# 初始化，并选择 2.x
-npx @vuepress-reco/theme-cli init
-```
-
-**npm**
-
-```bash
-# 初始化，并选择 2.x
-npm install @vuepress-reco/theme-cli@1.0.7 -g
-theme-cli init
-```
-
-**yarn**
-
-```bash
-# 初始化，并选择 2.x
-yarn global add @vuepress-reco/theme-cli@1.0.7
-theme-cli init
-```

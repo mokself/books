@@ -17,15 +17,15 @@ export default defineUserConfig({
     navbar: [
       { text: "主页", link: "/" },
       { text: "博客", link: "/posts", icon: "reco-date" },
-      { text: "Categories", link: "/categories/reco/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
-      {
-        text: "Docs",
-        children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
-        ],
-      },
+      { text: "分类", link: "/categories/qita/1/" },
+      { text: "标签", link: "/tags/vue/1/" },
+      // {
+      //   text: "Docs",
+      //   children: [
+      //     { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
+      //     { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+      //   ],
+      // },
     ],
     // commentConfig: {
     //   type: 'valie',

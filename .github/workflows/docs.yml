@@ -9,9 +9,7 @@ on:
 
 # 设置 {{ GITHUB_TOKEN }} 的部署权限
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   docs:

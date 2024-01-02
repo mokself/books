@@ -5,6 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "小哔咔的个人博客",
   description: "小哔咔的个人博客",
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.jpg",

@@ -10,7 +10,7 @@ categories:
 
 ## 创建仓库
 首先在github新建仓库[New repository](https://github.com/new)，取名为`<USERNAME>.github.io`这样你的访问路径就是`https://<USERNAME>.github.io`， 比如我的github用户名是`mokself`那么我的仓库地址就应该为`mokself.github.io`，如果取别的名称也可以，但是访问路径就变成`https://<USERNAME>.github.io/<REPO>`。 这个用户名可以在`Settings`里修改。其他的设置默认就好。
-![1.png](./img/1.png)
+![1.png](img/vuepress/1.png)
 
 ## 初始化项目
 仓库建好后在本地搭建项目
@@ -29,7 +29,7 @@ node的官网地址[https://nodejs.org](https://nodejs.org)
 :::
 
 初始化过程中需要选择是否新建目录和新目录名称等，重要的是选择版本要选择**2.x**
-![2.png](./img/2.png)
+![2.png](img/vuepress/2.png)
 
 等待初始化完成
 
@@ -45,7 +45,7 @@ npm install
 npm run dev
 ```
 打开浏览器看看效果
-![3.png](./img/3.png)
+![3.png](img/vuepress/3.png)
 
 正如我现在博客的风格
 
@@ -155,12 +155,12 @@ Action执行完毕后应该会多出一个`gh-pages`的代码分支，里面是b
 Github仓库的菜单栏上找到`Actions`，里面可以看到工作流记录，如果部署失败可以点击进去查看具体的错误信息
 
 成功部署会显示绿色的勾
-![4.png](./img/4.png)
+![4.png](img/vuepress/4.png)
 查看详细可以看到每一步的执行情况
-![5.png](./img/5.png)
+![5.png](img/vuepress/5.png)
 
 错误提示`[vite]: Rollup failed to resolve import "vue" from ...`  
-![6.png](./img/6.png)
+![6.png](img/vuepress/6.png)
 这是因为工作流配置(`.github/workflows/docs.yml`)中使用的pnpm进行构建，此时需要安装前置依赖  
 在项目的`package.json`中添加
 ```json
